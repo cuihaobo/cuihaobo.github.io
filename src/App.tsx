@@ -17,6 +17,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React + David!</h1>
+      <DatePicker style={{ marginRight: '8px' }} />
       <DatePicker />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
