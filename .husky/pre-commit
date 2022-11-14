@@ -30,9 +30,9 @@ echo 'Your code looks good, let us move on to building it now';
 
 # Check eslint standards
 
-npm run build || {
-    echo 'Failed to build proejct';
-    false;
-}
+# npm run build || {
+#     echo 'Failed to build proejct';
+#     false;
+# }
 
 # npm test
