@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { DatePicker } from 'antd'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
@@ -15,7 +16,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + David</h1>
+      <h1>Vite + React + David!</h1>
+      <DatePicker />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
