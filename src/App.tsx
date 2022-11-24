@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + David!</h1>
+      <h1>Vite + React + Lele!</h1>
       <DatePicker style={{ marginRight: '8px' }} />
       <DatePicker />
       <div className="card">
